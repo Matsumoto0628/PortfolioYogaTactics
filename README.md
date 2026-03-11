@@ -65,6 +65,10 @@ MediaPipeはWebカメラの映像から33点の骨格ランドマークを高精
 
 `FSM<EState, TPawn>` というジェネリッククラスを定義し、状態の型とPawnの型を任意に指定できる設計にした。KnightやButterflyなど異なるキャラクターがそれぞれのFSMを独立して実装できる。
 
+https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/2ab6a09f18c1dca863480223adabb0558d60e350/Scripts/Pawn/FSM.cs#L4-L10
+
+
+
 ### ScriptableObjectによるパラメータの外部化
 
 体力・攻撃力・移動速度などの基本パラメータをScriptableObjectで管理し、コードを変更せずにエディタ上でバランス調整できるようにした。`CannonSO`が`PawnSO`を継承する形で、キャラクター固有の属性を拡張している。
