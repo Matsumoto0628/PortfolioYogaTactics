@@ -2,12 +2,7 @@
 
 ヨガを用いたゲーム依存症対策ゲーム
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/211a3d63-69be-40ca-b7c1-639823bb431a"
-         width="700"
-         controls>
-  </video>
-</p>
+https://github.com/user-attachments/assets/211a3d63-69be-40ca-b7c1-639823bb431a
 
 - **開発期間** : 9ヶ月
 - **制作人数** : 6人
