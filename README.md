@@ -87,6 +87,8 @@ https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/0fe66025f83859c3ae44b
 
 エフェクト生成時のGCアロケーションを抑えるため、Stackベースのオブジェクトプールを実装した。`Poolable`抽象クラスで`OnGet()`・`OnReturn()`のライフサイクルを統一し、アニメーション終了時に自動でプールへ返却される仕組みにした。事前に一定数のインスタンスを生成するため初期化コストが増加するトレードオフがあるが、エフェクトが頻繁に発生する戦闘中のフレームレート安定性を優先した。
 
+https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/492a872f7543b793f26cd48ae21770940266ba25/Scripts/ObjectPool/Poolable.cs#L3-L8
+
 <br>
 <br>
 
