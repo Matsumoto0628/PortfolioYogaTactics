@@ -81,6 +81,8 @@ https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/a13b481b4137ba0b137d6
 
 https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/7890ed10b36f19b3aa12415c6b19235a579706f8/Scripts/Pawn/Modifier/IStatusModifierOnce.cs#L1-L4
 
+https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/0fe66025f83859c3ae44b8bde0513ddb17283df1/Scripts/Pawn/Modifier/BonusBoost.cs#L1-L16
+
 ### オブジェクトプールによるGC負荷の抑制
 
 エフェクト生成時のGCアロケーションを抑えるため、Stackベースのオブジェクトプールを実装した。`Poolable`抽象クラスで`OnGet()`・`OnReturn()`のライフサイクルを統一し、アニメーション終了時に自動でプールへ返却される仕組みにした。事前に一定数のインスタンスを生成するため初期化コストが増加するトレードオフがあるが、エフェクトが頻繁に発生する戦闘中のフレームレート安定性を優先した。
