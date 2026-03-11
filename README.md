@@ -73,7 +73,7 @@ https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/2ab6a09f18c1dca863480
 
 https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/0a7204e0031bfe9ab63ff72ef75787faa0351ac1/Scripts/Pawn/PawnSO.cs#L4-L10
 
-
+https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/a13b481b4137ba0b137d6004070073e0748793b3/Scripts/Pawn/CannonSO.cs#L4-L8
 
 ### Modifierパターンによるステータス変更
 
