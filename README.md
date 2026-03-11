@@ -67,6 +67,8 @@ MediaPipeはWebカメラの映像から33点の骨格ランドマークを高精
 
 https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/2ab6a09f18c1dca863480223adabb0558d60e350/Scripts/Pawn/FSM.cs#L4-L10
 
+---
+
 ### ScriptableObjectによるパラメータの外部化
 
 体力・攻撃力・移動速度などの基本パラメータをScriptableObjectで管理し、コードを変更せずにエディタ上でバランス調整できるようにした。`CannonSO`が`PawnSO`を継承する形で、キャラクター固有の属性を拡張している。
@@ -75,6 +77,8 @@ https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/0a7204e0031bfe9ab63ff
 
 https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/a13b481b4137ba0b137d6004070073e0748793b3/Scripts/Pawn/CannonSO.cs#L4-L8
 
+---
+
 ### Modifierパターンによるステータス変更
 
 `IStatusModifierOnce`インターフェース経由でステータスの変更を適用する設計にした。変更時に新しい`PawnStatus`インスタンスを生成するアプローチをとることで、副作用を最小化している。
@@ -82,6 +86,8 @@ https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/a13b481b4137ba0b137d6
 https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/7890ed10b36f19b3aa12415c6b19235a579706f8/Scripts/Pawn/Modifier/IStatusModifierOnce.cs#L1-L4
 
 https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/0fe66025f83859c3ae44b8bde0513ddb17283df1/Scripts/Pawn/Modifier/BonusBoost.cs#L1-L16
+
+---
 
 ### オブジェクトプールによるGC負荷の抑制
 
