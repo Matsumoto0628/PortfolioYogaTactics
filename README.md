@@ -96,3 +96,6 @@ https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/492a872f7543b793f26cd
 1. [itch.io](https://iput-alpha.itch.io/yoga-tactics)のページから `YogaTactics_Win.zip` をダウンロード
 2. ZIPを展開する
 3. `YogaTactics.exe` を起動する
+
+<img width="303" height="320" alt="スクリーンショット 2026-03-11 190553" src="https://github.com/user-attachments/assets/1951be64-e0ef-422b-87eb-0bdd841ccad1" />
+
