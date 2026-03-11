@@ -79,6 +79,8 @@ https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/a13b481b4137ba0b137d6
 
 `IStatusModifierOnce`インターフェース経由でステータスの変更を適用する設計にした。変更時に新しい`PawnStatus`インスタンスを生成するアプローチをとることで、副作用を最小化している。
 
+https://github.com/Matsumoto0628/PortfolioYogaTactics/blob/7890ed10b36f19b3aa12415c6b19235a579706f8/Scripts/Pawn/Modifier/IStatusModifierOnce.cs#L1-L4
+
 ### オブジェクトプールによるGC負荷の抑制
 
 エフェクト生成時のGCアロケーションを抑えるため、Stackベースのオブジェクトプールを実装した。`Poolable`抽象クラスで`OnGet()`・`OnReturn()`のライフサイクルを統一し、アニメーション終了時に自動でプールへ返却される仕組みにした。事前に一定数のインスタンスを生成するため初期化コストが増加するトレードオフがあるが、エフェクトが頻繁に発生する戦闘中のフレームレート安定性を優先した。
