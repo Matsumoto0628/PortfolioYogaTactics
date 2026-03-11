@@ -2,6 +2,8 @@
 
 ヨガを用いたゲーム依存症対策ゲーム
 
+https://github.com/user-attachments/assets/211a3d63-69be-40ca-b7c1-639823bb431a
+
 - **開発期間** : 9ヶ月
 - **制作人数** : 6人
 - **リリース先** : [itch.io](https://iput-alpha.itch.io/yoga-tactics)
